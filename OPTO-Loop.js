@@ -42,7 +42,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_71 = function() {
+(lib.CachedBmp_72 = function() {
 	this.initialize(ss["OPTO_Loop_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -334,7 +334,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_71();
+	this.instance = new lib.CachedBmp_72();
 	this.instance.setTransform(-0.45,0.3,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_12();
@@ -520,7 +520,7 @@ p.nominalBounds = new cjs.Rectangle(-28.5,-52.9,208,138.7);
 
 // stage content:
 (lib.OptoLoop = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = false; }
+if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
